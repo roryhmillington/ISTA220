@@ -1,0 +1,214 @@
+﻿1.	What is a console App? 
+
+	Console application is an application that runs in a command prompt window instead of providing a graphical user interface.  
+ 
+2.	What does a main( ) (The Main Method) do in a console Application?  A.  Designates the Programs Entry Point.  
+ 
+3.	What is the purpose of a Namespace? 
+	Creating a container for items such as classes. “Table” Rows/Columns, Package of Code. 
+ 
+4.	Describe specifically what using statements do? 
+	Brings a namespace into scope. In subsequent code in the same file you no longer need to explicitly qualify objects with the namespace to which they belong.  
+ 
+5.	What is an assembly? 
+	An assembly is a file that usually has the .dll file name extensions, although strictly speaking executable programs with the .exe file name extensions are also extensions.  
+ 
+6.	What is the relationship between an assembly and a namespace? 
+	A single assembly can contain classes defined by many namespaces, and a single namespace can span multiple assemblies.  
+ 
+7.	What is a graphic application? 
+	Enables you to create App’s that function on any device that runs windows.  
+ 
+8.	What is the starting point of a graphical application? 
+	APP.XAML (Extensible Application Markup Language) which is the language that Universal Windows Platform applications use to define the layout for the GUI of an application. 
+  
+9.	What does build do? 
+	Complies C# Code, resulting in a program you can run. Turns it into an assembly.  
+ 
+10.	What does Debug do? 
+	Command Window opens and the program runs. Checks code line by line.  
+ 
+Chapter 2 
+ 
+1.	1. What is a local variable? 
+	
+	Variables that only exist only in a method or small section of code. 
+ 
+2.	What is a statement? 
+	
+	A statement is a command that performs an action, such as calculating a value and storing the result or displaying a message to the user. You combine statements to create methods. 
+ 
+3.	What is an identifier? 
+	
+	Are names you use to indentify elements is your program, such as namespaces, classes, methods, and variables.  
+ 
+4.	What is a variable? 
+	
+	A variable is a storage location that holds a value. You can think of a variable as a box in the computer’s memory that holds temporary information.  A named location in memory that contains a value. 
+ 
+5.	What is a method? 
+	
+	A named sequence of statements. A named location in memory that contains a behavior.
+ 
+6.	Are primitive types and value types the same thing? See page 177. 
+	
+	Most of the primitive data types built into C#, such as int, float, double, and char (but not string) are collectively called value types. These types have a fixed size, and when you declare a variable as a value type, the compiler generates code that allocates a block of memory big enough to hold a corresponding value.  
+ 
+7.	How are arithmetic operators and variable types related? 
+	
+	Arithmetic operators “operate” on values to create new ones.  
+ 
+8.	How do you turn an integer into a string? 
+	
+	You can use the + operator to concatenate string values. Using the two string method.
+ 
+9.	How do you turn a string into an integer? 
+	
+	The .NET Framwork provides a method called Int32.Parse that you can use to convert a string value to an integer if you need to perform arithmetic computations on values held as strings. 
+ 
+10.	What is the difference between precedence and associativity? Give an example where this makes a difference. 
+	
+	Precedence is the order in which an expressions order is evaluated. Associativity is the direction (left or right) in which the operands of an operator are evaluated.  When an expression contains different operators that have the same precedence.  
+ 
+11.	What is the definite assignment rule? 
+
+	C# does not allow you to use an unassigned variable. You must assign a value to a variable before you can use it; otherwise your program will not compile. 
+ 
+12.	12. How are the prefix and postfix increment and decrement operators evaluated differently? 
+	
+	Placing the operator symbol before the variable is called prefix form of the operator and using the operator symbol after the variable is called postfix form. In the prefix increment/decrement the operator is evaluated first. In the postfix the variable is evaluated first.  
+ 
+13.	What is string interpolation? 
+	
+	The $ symbol at the start of a the string indicates that it is a interpolated string and any expressions between the [ and ] characters should be evaluated and the result substituted in their place. Renders many uses of the + operator obsolete for concatenating strings.  
+ 
+14.	What does the var keyword do? 
+	
+	Var allows the computer to enter inter the type of variable.
+
+
+
+Chapter 3
+
+
+1.	1. What is a local variable? 
+	
+	Variables that only exist only in a method or small section of code. 
+ 
+2.	What is a statement? 
+	
+	A statement is a command that performs an action, such as calculating a value and storing the result or displaying a message to the user. You combine statements to create methods. 
+ 
+3.	What is an identifier? 
+	
+	Are names you use to indentify elements is your program, such as namespaces, classes, methods, and variables.  
+ 
+4.	What is a variable? 
+	
+	A variable is a storage location that holds a value. You can think of a variable as a box in the computer’s memory that holds temporary information.  A named location in memory that contains a value. 
+ 
+5.	What is a method? 
+	
+	A named sequence of statements. A named location in memory that contains a behavior.
+ 
+6.	Are primitive types and value types the same thing? See page 177. 
+	
+	Most of the primitive data types built into C#, such as int, float, double, and char (but not string) are collectively called value types. These types have a fixed size, and when you declare a variable as a value type, the compiler generates code that allocates a block of memory big enough to hold a corresponding value.  
+ 
+7.	How are arithmetic operators and variable types related? 
+	
+	Arithmetic operators “operate” on values to create new ones.  
+ 
+8.	How do you turn an integer into a string? 
+	
+	You can use the + operator to concatenate string values. Using the two string method.
+ 
+9.	How do you turn a string into an integer? 
+	
+	The .NET Framwork provides a method called Int32.Parse that you can use to convert a string value to an integer if you need to perform arithmetic computations on values held as strings. 
+ 
+10.	What is the difference between precedence and associativity? Give an example where this makes a difference. 
+	
+	Precedence is the order in which an expressions order is evaluated. Associativity is the direction (left or right) in which the operands of an operator are evaluated.  When an expression contains different operators that have the same precedence.  
+ 
+11.	What is the definite assignment rule? 
+
+	C# does not allow you to use an unassigned variable. You must assign a value to a variable before you can use it; otherwise your program will not compile. 
+ 
+12.	12. How are the prefix and postfix increment and decrement operators evaluated differently? 
+	
+	Placing the operator symbol before the variable is called prefix form of the operator and using the operator symbol after the variable is called postfix form. In the prefix increment/decrement the operator is evaluated first. In the postfix the variable is evaluated first.  
+ 
+13.	What is string interpolation? 
+	
+	The $ symbol at the start of a the string indicates that it is a interpolated string and any expressions between the [ and ] characters should be evaluated and the result substituted in their place. Renders many uses of the + operator obsolete for concatenating strings.  
+ 
+14.	What does the var keyword do? 
+	
+	Var allows the computer to enter inter the type of variable.
+
+
+Chapter 4
+
+1. 	What are all possible values of a Boolean expression?
+
+	True or False	
+
+2. 	List eight Boolean operators.
+
+	! negates the boolean value
+	== equality
+	!= inequality
+	< less than
+	<= less than or eqaul too
+	> greater than
+	>= greater than or equal too
+	&& logical and
+	// logical or
+	
+3.	What are the diﬀerence in how short circuiting works for && and ||?
+
+	The && and || operators both exhibit a feature called short circuiting. Sometimes, it is not necessary to evaluate
+	both operands when ascertaining the result of a conditional logical expression. 
+	
+4.	Look at the list of operators. What operator has the highest precedence? Which has the lowest?
+
+	Primary/Assignment
+
+5.	In an if or else construction using multiple lines of code, what eﬀect does the use of curly braces have?
+
+	If they are not put in a block they are not evaluated. 
+
+6.	In a switch statement, what happens if you omit break?
+
+	Execution can fall thru to the label and leading to bugs that are difficult to spot. 
+
+CH 5
+
+1.	What is a compound assignment operator? How does it work?
+
+	Combines any arithmetic operator with the assignment operator.
+
+2.	List all the compound assignment operators.
+
+	*=, /=, %=, +=, -=.
+
+3. 	List two ways to increment a numeric variable by 5. List two ways to decrement a numeric variable by 50.
+
+	varible = varible + 5; ,variable += 5; varible = varible - 50, varible -= 50;
+
+4.	How long does a while loop run?
+
+	Until the statement is evaluated false.	
+
+5.	What happens if you don’t change the loop variable in the body of the while loop block?
+
+	
+
+6. How many parts does a for loop statement have? Can you omit any of them? Can you omit all of them? What happens if you omit all of them?
+7. How do you guarantee that a loop runs at least once?
+8. What does the break statement do?
+9. What does the continue statement do?
+Page 1, Revised on February 23, 2018 by Charles 
+
+ 
